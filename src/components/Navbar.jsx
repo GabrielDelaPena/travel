@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from "react-scroll"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -15,10 +16,18 @@ const Navbar = () => {
 
                 {/** menu */}
                 <ul className='hidden md:flex md:gap-10'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Service</li>
-                    <li>Contact</li>
+                    <li>
+                        <Link to='home' smooth={true} duration={500}>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='destination' smooth={true} duration={500}>Destination</Link>
+                    </li>
+                    <li>
+                        <Link to='recent' smooth={true} duration={500}>Recent Trips</Link>
+                    </li>
+                    <li>
+                        <Link to='contact' smooth={true} duration={500}>Contact</Link>
+                    </li>
                 </ul>
 
                 {/** hamburger */}
@@ -28,10 +37,18 @@ const Navbar = () => {
 
                 {/** mobile menu */}
                 <ul className={!nav ? 'hidden' : 'absolute w-full h-screen top-0 left-0 flex flex-col justify-center items-center gap-8 bg-white'}>
-                    <li className='text-3xl' >Home</li>
-                    <li className='text-3xl' >About</li>
-                    <li className='text-3xl' >Service</li>
-                    <li className='text-3xl' >Contact</li>
+                    <li className='text-3xl' >
+                        <Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link>
+                    </li>
+                    <li className='text-3xl' >
+                        <Link onClick={handleClick} to='destination' smooth={true} duration={500}>Destination</Link>
+                    </li>
+                    <li className='text-3xl' >
+                        <Link onClick={handleClick} to='recent' smooth={true} duration={500}>Recent Trips</Link>
+                    </li>
+                    <li className='text-3xl' >
+                        <Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

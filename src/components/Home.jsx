@@ -1,8 +1,9 @@
 import HomeImage from "../assets/home.jpg"
+import { Link } from "react-scroll"
 
 const Home = () => {
     return (
-        <div name="home" className=''>
+        <div name="home">
             <img className="w-full h-screen object-cover object-left" src={HomeImage} alt="/" />
 
             {/** overlay */}
@@ -14,7 +15,9 @@ const Home = () => {
                         <h1 className="text-white font-bold text-5xl md:text-7xl">Your Story</h1>
                     </div>
                     <p className="text-white font-light text-lg">Choose Your Favourite Destination</p>
-                    <button className="border-2 text-black px-8 py-3 bg-white rounded-md font-medium">Destination</button>
+                    <button className="border-2 text-black px-8 py-3 bg-white rounded-md font-medium">
+                    <Link to='destination' smooth={true} duration={500}>Destination</Link>
+                    </button>
                 </div>
             </div>
         </div>
