@@ -15,12 +15,12 @@ const Destination = () => {
                     <div className="flex flex-col justify-center lg:flex-row gap-4">
                         <div className="max-w-[600px] mx-auto flex flex-col justify-center gap-4">
                             <p className="font-bold">Taal Volcano, Batangas</p>
-                            <p className="font-light">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-                                Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-                                toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-                                om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-                                vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren
-                                &apos;60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                            <p className="font-light">
+                            Taal Volcano has had several violent eruptions in the past, 
+                            causing deaths on the island and the populated areas surrounding the lake, 
+                            with an overall death toll of about 6,000. Because of its proximity to populated areas and its eruptive history, 
+                            the volcano was designated a Decade Volcano, worthy of close study to prevent future natural disasters. 
+                            All volcanoes in the Philippines are part of the Ring of Fire.
                             </p>
                         </div>
 

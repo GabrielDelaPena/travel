@@ -17,10 +17,13 @@ const Recent = () => {
                             <img src={Indonesia} alt="indonesia" />
                             <p className="font-bold">Indonesia</p>
                             <p>
-                                Indonesia, officially the Republic of Indonesia, also known locally as Nusantara,
-                                is a country located in Asia and to a lesser extent in Oceania.
-                                The country consists of an archipelago of 16,056 islands, but this is not 100% certain.
-                                This makes the country the world&apos;s largest island nation.
+                                As the world&apos;s third largest democracy,
+                                Indonesia is a presidential republic with an elected legislature.
+                                It has 38 provinces, of which nine have special status.
+                                The country&apos;s capital, Jakarta, is the world&apos;s second-most populous urban area.
+                                Indonesia shares land borders with Papua New Guinea, East Timor,
+                                and the eastern part of Malaysia, as well as maritime borders with Singapore, Vietnam, Thailand, the Philippines,
+                                Australia, Palau, and India.
                             </p>
                         </div>
 
@@ -28,10 +31,12 @@ const Recent = () => {
                             <img src={Malaysia} alt="indonesia" />
                             <p className="font-bold">Malaysia</p>
                             <p>
-                                Indonesia, officially the Republic of Indonesia, also known locally as Nusantara,
-                                is a country located in Asia and to a lesser extent in Oceania.
-                                The country consists of an archipelago of 16,056 islands, but this is not 100% certain.
-                                This makes the country the world&apos;s largest island nation.
+                                Malaysia has its origins in the Malay kingdoms, which, from the 18th century on,
+                                became subject to the British Empire, along with the British Straits Settlements protectorate.
+                                During World War Two, British Malaya, along with other nearby British and American colonies,
+                                was occupied by the Empire of Japan.[13] Following three years of occupation,
+                                peninsular Malaysia was unified
+                                as the Malayan Union in 1946 and then restructured as the Federation of Malaya in 1948.
                             </p>
                         </div>
 
@@ -39,10 +44,14 @@ const Recent = () => {
                             <img src={France} alt="indonesia" />
                             <p className="font-bold">France</p>
                             <p>
-                                Indonesia, officially the Republic of Indonesia, also known locally as Nusantara,
-                                is a country located in Asia and to a lesser extent in Oceania.
-                                The country consists of an archipelago of 16,056 islands, but this is not 100% certain.
-                                This makes the country the world&apos;s largest island nation.
+                            Inhabited by archaic humans since the Paleolithic era, 
+                            the territory of Metropolitan France was settled during the Iron 
+                            Age by Celtic tribes known as Gauls. Rome annexed the area in 51 BC, 
+                            leading to a distinct Gallo-Roman culture that laid the foundation of the French language. 
+                            The Germanic Franks formed the Kingdom of Francia, which became the heartland 
+                            of the Carolingian Empire. The Treaty of Verdun of 843 partitioned the empire, 
+                            with West Francia becoming the Kingdom of France in 987. 
+                            In the High Middle Ages, France was a powerful but highly decentralised feudal kingdom.
                             </p>
                         </div>
                     </div>
